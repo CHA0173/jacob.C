@@ -1,0 +1,69 @@
+body{
+  text-align: center;
+}
+.backp{
+  z-index:1;
+}
+.frontp{
+  z-index:2;
+}
+.bg-navbar{
+  background-color: rgb(150, 0, 0);
+}
+.frontp .about img{
+  border-radius: 50%;
+}
+h1{
+  font-size:70px;
+  color:brown
+}
+header{
+background: linear-gradient(rgba(255, 255, 255, 0.603),rgba(0, 0, 0, 0.651)),url("./cross.jpg") center center no-repeat;
+background-attachment: fixed;
+height:100vh;
+width:100%;
+background-size: cover;
+display: flex;
+flex-direction: column;
+align-content: center;
+justify-content: center;
+color:rgb(103, 61, 255);
+font-size: 150%;
+}
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+  color:white; 
+}
+.navbar-brand .fab.fa-autoprefixer{
+  transform: rotate(180deg);
+}
+.about img{
+  height:300px;
+  padding:0px;
+}
+.about{
+  background: rgba(30, 17, 12, 0.932);
+  padding:5%;
+  color:white;
+}
+.pofo{
+  background:rgb(255, 102, 0)
+}
+.row{
+  background: rgba(255, 255, 255, 0.925);
+  color:black;
+  border-radius: 50px;
+}
+.col-md-6.col-sm-12{
+  padding: 10px 50px;
+}
+.pofo #carouselExampleIndicators .carousel-inner img{
+  display:block;
+  margin: 0 auto;
+}
+.contact .rightside .navbar-brand{
+  color:black;
+}
+i{
+  color:orangered;
+}
